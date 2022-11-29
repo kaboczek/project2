@@ -1,0 +1,99 @@
+body{
+    background-image: url(../css/img/denim.webp);
+    margin: 0;
+    color: white;
+}
+
+.container {
+    background-color: rgb(95, 88, 125);
+    width:  900px;
+    height: 650px;
+    margin: auto;
+}
+
+.logo {
+    background-color: rgb(59, 54, 54);
+    width:  800px;
+    height: 200px;
+    margin: auto;
+    
+}
+
+.logo1 {
+    width: 800px;
+    height: 150px;
+}
+
+.logop {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(222, 199, 199);
+
+}
+
+.nav {
+    float: left;
+    background-color: rgb(184, 179, 207);
+    width:  266px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 0px;
+    
+}
+
+.content {
+    float: left;
+    background-color: rgb(81, 62, 166);
+    width:  266px;
+    height: 350px;
+    margin-top: auto;
+    margin-left: 0;
+}
+
+.header {
+    font-size: 18px;
+}
+
+.ak1 {
+    font-size: 14px;
+}
+.tab {
+    float: left;
+    background-color: rgb(159, 153, 184);
+    width:  266px;
+    height: 350px;
+    margin-top: 0;
+   
+}
+
+
+td, th { border: 1px solid black; }
+
+.boss {
+    color: red;
+}
+
+.sec {
+    color: green;
+}
+
+
+
+
+.footer {
+    clear: both;
+    background-color: rgb(28, 27, 34);
+    width:  800px;
+    height: 100px;
+    margin-top: -4px;
+    margin-left: 50px;
+
+}
+
+.cite {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+}

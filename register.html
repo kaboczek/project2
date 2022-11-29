@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl"></html>
+<head>
+  <meta charset="UTF=8" />
+  <meta name="descripiton" content="rejestracja do klanu Non omnis moriar" />
+  <link rel="stylesheet" href="css/styler.css" />
+  <title>Registration</title>
+</head>
+<body>
+  <form action="new.php" method="post">
+    <!-- Tutaj wybrane kontrolki formularza -->
+  </form>
+  <div>
+    <div>
+      <label for="pole">Podaj nick:</label
+      ><input type="text" id="pole" placeholder="istniejący nick z CS" />
+    </div>
+    <div>
+      <label for="pass">Podaj hasło:</label> <input type="password" id="pass" />
+    </div>
+    <div>
+      <label for="pass">Powtórz hasło:</label>
+      <input type="password" id="pass" />
+    </div>
+    <div>
+      <label for="liczba">Podaj datę urodzenia:</label>
+      <input type="number" id="liczba" placeholder="dd-mm-rrrr" />
+    </div>
+
+    <div>
+      <label>
+        <input type="radio" name="plec" value="m" checked /> Mężczyzna
+      </label>
+
+      <label> <input type="radio" name="plec" value="k" /> Kobieta </label>
+    </div>
+    <div>
+      <input type="checkbox" id="zazn" checked />
+      <label for="zazn">Akceptuję regulamin</label>
+    </div>
+    <div>
+      <input type="checkbox" id="zazn" />
+      <label for="zazn">Wyrażam zgodę na otrzymywanie newslettera</label>
+    </div>
+    <div>
+      <label for="bron">Ulubiona broń:</label>
+      <select id="bron">
+        <option value="Five-SeveN">Five-SeveN</option>
+        <option value="Desert Eagle">Desert Eagle</option>
+        <option value="PP-Bizon">PP-Bizon</option>
+        <option value="AWP">AWP</option>
+        <option value="MP9">MP9</option>
+        <option value="AK-47">AK-47</option>
+      </select>
+    </div>
+    <div>
+      <label for="maps">Ulubione mapy:</label>
+      <select id="maps" multiple>
+        <option value="Dust II">Dust II</option>
+        <option value="Mirage">Mirage</option>
+        <option value="Cache">Cache</option>
+        <option value="Inferno">Inferno</option>
+        <option value="Nuke">Nuke</option>
+        <option value="Train">Train</option>
+      </select>
+    </div>
+    <div>
+      <label for="komentarz"
+        >Kilka słów o sobie:
+        <p>
+          <small
+            >Opisz swoją przygodę z CS:GO, dlaczego wybrałeś akurat nasz
+            klan?</small
+          >
+        </p></label
+      >
+      <textarea id="komentarz" rows="5" cols="44"></textarea>
+    </div>
+    <div><input type="submit" value="Zarejestruj się"> </div>
+  </div>
+</body>
